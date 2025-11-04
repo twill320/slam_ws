@@ -1,0 +1,4 @@
+source;share/slam_bot_gazebo/local_setup.bash
+source;share/slam_bot_gazebo/local_setup.dsv
+source;share/slam_bot_gazebo/local_setup.sh
+source;share/slam_bot_gazebo/local_setup.zsh

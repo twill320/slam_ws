@@ -1,0 +1,4 @@
+source;share/slam_bot_description/environment/ament_prefix_path.sh
+source;share/slam_bot_description/environment/path.sh
+source;share/slam_bot_description/environment/slam_bot_description.sh
+source;share/slam_bot_description/environment/slam_bot_description.dsv

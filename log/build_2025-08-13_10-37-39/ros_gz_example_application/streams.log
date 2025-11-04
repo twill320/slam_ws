@@ -1,0 +1,39 @@
+[0.018s] Invoking command in '/home/toluwani-williams/slam_ws/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/toluwani-williams/slam_ws/src/ros_gz_project_template/ros_gz_example_application -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/toluwani-williams/slam_ws/install/ros_gz_example_application
+[0.284s] -- The C compiler identification is GNU 13.3.0
+[0.484s] -- The CXX compiler identification is GNU 13.3.0
+[0.532s] -- Detecting C compiler ABI info
+[0.711s] -- Detecting C compiler ABI info - done
+[0.724s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.725s] -- Detecting C compile features
+[0.725s] -- Detecting C compile features - done
+[0.744s] -- Detecting CXX compiler ABI info
+[0.925s] -- Detecting CXX compiler ABI info - done
+[0.938s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.939s] -- Detecting CXX compile features
+[0.939s] -- Detecting CXX compile features - done
+[0.946s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.233s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.585s] -- Configuring done (1.5s)
+[1.593s] -- Generating done (0.0s)
+[1.597s] -- Build files have been written to: /home/toluwani-williams/slam_ws/build/ros_gz_example_application
+[1.607s] Invoked command in '/home/toluwani-williams/slam_ws/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/toluwani-williams/slam_ws/src/ros_gz_project_template/ros_gz_example_application -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/toluwani-williams/slam_ws/install/ros_gz_example_application
+[1.609s] Invoking command in '/home/toluwani-williams/slam_ws/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/ros_gz_example_application -- -j8 -l8
+[1.707s] Invoked command in '/home/toluwani-williams/slam_ws/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/ros_gz_example_application -- -j8 -l8
+[1.724s] Invoking command in '/home/toluwani-williams/slam_ws/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/ros_gz_example_application
+[1.736s] -- Install configuration: ""
+[1.737s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_application
+[1.737s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_application
+[1.737s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.sh
+[1.738s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.dsv
+[1.738s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.sh
+[1.738s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.dsv
+[1.738s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.bash
+[1.739s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.sh
+[1.739s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.zsh
+[1.739s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.dsv
+[1.740s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/package.dsv
+[1.740s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ament_index/resource_index/packages/ros_gz_example_application
+[1.740s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig.cmake
+[1.740s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig-version.cmake
+[1.740s] -- Installing: /home/toluwani-williams/slam_ws/install/ros_gz_example_application/share/ros_gz_example_application/package.xml
+[1.743s] Invoked command in '/home/toluwani-williams/slam_ws/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/ros_gz_example_application

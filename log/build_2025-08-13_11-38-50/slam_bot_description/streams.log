@@ -1,0 +1,48 @@
+[0.038s] Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/toluwani-williams/slam_ws/src/slam_bot_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/toluwani-williams/slam_ws/install/slam_bot_description
+[0.218s] -- The C compiler identification is GNU 13.3.0
+[0.382s] -- The CXX compiler identification is GNU 13.3.0
+[0.427s] -- Detecting C compiler ABI info
+[0.636s] -- Detecting C compiler ABI info - done
+[0.658s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.661s] -- Detecting C compile features
+[0.661s] -- Detecting C compile features - done
+[0.685s] -- Detecting CXX compiler ABI info
+[0.886s] -- Detecting CXX compiler ABI info - done
+[0.911s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.911s] -- Detecting CXX compile features
+[0.912s] -- Detecting CXX compile features - done
+[0.945s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.246s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.538s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.748s] -- Configuring done (1.7s)
+[1.756s] -- Generating done (0.0s)
+[1.760s] -- Build files have been written to: /home/toluwani-williams/slam_ws/build/slam_bot_description
+[1.782s] Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/toluwani-williams/slam_ws/src/slam_bot_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/toluwani-williams/slam_ws/install/slam_bot_description
+[1.782s] Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_description -- -j8 -l8
+[1.860s] Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_description -- -j8 -l8
+[1.861s] Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_description
+[1.878s] -- Install configuration: ""
+[1.879s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models
+[1.879s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models/diff_drive
+[1.881s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models/diff_drive/model.sdf
+[1.881s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models/diff_drive/model.config
+[1.882s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models/rrbot
+[1.882s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models/rrbot/model.sdf
+[1.882s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/environment/slam_bot_description.dsv
+[1.883s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/environment/slam_bot_description.sh
+[1.883s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/ament_index/resource_index/package_run_dependencies/slam_bot_description
+[1.883s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/ament_index/resource_index/parent_prefix_path/slam_bot_description
+[1.883s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/environment/ament_prefix_path.sh
+[1.883s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/environment/ament_prefix_path.dsv
+[1.884s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/environment/path.sh
+[1.884s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/environment/path.dsv
+[1.885s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/local_setup.bash
+[1.885s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/local_setup.sh
+[1.885s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/local_setup.zsh
+[1.885s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/local_setup.dsv
+[1.886s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.dsv
+[1.887s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/ament_index/resource_index/packages/slam_bot_description
+[1.887s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/cmake/slam_bot_descriptionConfig.cmake
+[1.887s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/cmake/slam_bot_descriptionConfig-version.cmake
+[1.887s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.xml
+[1.927s] Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_description

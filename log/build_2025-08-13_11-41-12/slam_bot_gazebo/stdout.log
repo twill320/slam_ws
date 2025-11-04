@@ -1,0 +1,30 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[ 75%] [32m[1mLinking CXX shared library libBasicSystem.so[0m
+[100%] [32m[1mLinking CXX shared library libFullSystem.so[0m
+[100%] Built target BasicSystem
+[100%] Built target FullSystem
+-- Install configuration: ""
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/slam_bot_gazebo/libBasicSystem.so
+-- Set non-toolchain portion of runtime path of "/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/slam_bot_gazebo/libBasicSystem.so" to ""
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/slam_bot_gazebo/libFullSystem.so
+-- Set non-toolchain portion of runtime path of "/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/slam_bot_gazebo/libFullSystem.so" to ""
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/worlds
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/worlds/diff_drive.sdf
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/environment/slam_bot_gazebo.dsv
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/environment/slam_bot_gazebo.sh
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/ament_index/resource_index/package_run_dependencies/slam_bot_gazebo
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/ament_index/resource_index/parent_prefix_path/slam_bot_gazebo
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/environment/path.sh
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/environment/path.dsv
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/local_setup.bash
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/local_setup.sh
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/local_setup.zsh
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/local_setup.dsv
+-- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.dsv
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/ament_index/resource_index/packages/slam_bot_gazebo
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/cmake/slam_bot_gazeboConfig.cmake
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/cmake/slam_bot_gazeboConfig-version.cmake
+-- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.xml

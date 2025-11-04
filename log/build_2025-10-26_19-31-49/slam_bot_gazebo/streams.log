@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_gazebo': AMENT_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models /usr/bin/cmake /home/toluwani-williams/slam_ws/src/slam_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo
+[0.047s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.568s] Traceback (most recent call last):
+[5.568s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[5.569s]     from ament_package.templates import get_environment_hook_template_path
+[5.569s] ModuleNotFoundError: No module named 'ament_package'
+[5.633s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[5.634s]   execute_process(/usr/bin/python3
+[5.634s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[5.635s]   /home/toluwani-williams/slam_ws/build/slam_bot_gazebo/ament_cmake_package_templates/templates.cmake)
+[5.635s]   returned error code 1
+[5.636s] Call Stack (most recent call first):
+[5.636s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[5.637s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[5.637s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[5.637s]   CMakeLists.txt:10 (find_package)
+[5.638s] 
+[5.638s] [0m
+[5.639s] -- Configuring incomplete, errors occurred!
+[5.645s] Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_gazebo' returned '1': AMENT_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models /usr/bin/cmake /home/toluwani-williams/slam_ws/src/slam_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo

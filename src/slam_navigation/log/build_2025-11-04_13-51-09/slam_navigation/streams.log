@@ -1,0 +1,50 @@
+[0.028s] Invoking command in '/home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/toluwani-williams/slam_ws/src/slam_navigation -DCMAKE_INSTALL_PREFIX=/home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation
+[0.285s] -- The C compiler identification is GNU 13.3.0
+[0.533s] -- The CXX compiler identification is GNU 13.3.0
+[0.581s] -- Detecting C compiler ABI info
+[0.804s] -- Detecting C compiler ABI info - done
+[0.834s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.836s] -- Detecting C compile features
+[0.837s] -- Detecting C compile features - done
+[0.862s] -- Detecting CXX compiler ABI info
+[1.084s] -- Detecting CXX compiler ABI info - done
+[1.104s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.104s] -- Detecting CXX compile features
+[1.105s] -- Detecting CXX compile features - done
+[1.160s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.457s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.739s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.970s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.971s] -- Configured cppcheck include dirs: 
+[1.971s] -- Configured cppcheck exclude dirs and/or files: 
+[1.973s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.973s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.977s] -- Added test 'lint_cmake' to check CMake code style
+[1.980s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.989s] -- Added test 'uncrustify' to check C / C++ code style
+[1.989s] -- Configured uncrustify additional arguments: 
+[1.992s] -- Added test 'xmllint' to check XML markup files
+[1.997s] -- Configuring done (1.9s)
+[2.002s] -- Generating done (0.0s)
+[2.004s] -- Build files have been written to: /home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation
+[2.016s] Invoked command in '/home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/toluwani-williams/slam_ws/src/slam_navigation -DCMAKE_INSTALL_PREFIX=/home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation
+[2.018s] Invoking command in '/home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation -- -j8 -l8
+[2.105s] Invoked command in '/home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation -- -j8 -l8
+[2.126s] Invoking command in '/home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation
+[2.145s] -- Install configuration: ""
+[2.145s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/ament_index/resource_index/package_run_dependencies/slam_navigation
+[2.145s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/ament_index/resource_index/parent_prefix_path/slam_navigation
+[2.146s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/environment/ament_prefix_path.sh
+[2.147s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/environment/ament_prefix_path.dsv
+[2.147s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/environment/path.sh
+[2.148s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/environment/path.dsv
+[2.148s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/local_setup.bash
+[2.148s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/local_setup.sh
+[2.149s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/local_setup.zsh
+[2.149s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/local_setup.dsv
+[2.150s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/package.dsv
+[2.150s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/ament_index/resource_index/packages/slam_navigation
+[2.150s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/cmake/slam_navigationConfig.cmake
+[2.151s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/cmake/slam_navigationConfig-version.cmake
+[2.151s] -- Installing: /home/toluwani-williams/slam_ws/src/slam_navigation/install/slam_navigation/share/slam_navigation/package.xml
+[2.155s] Invoked command in '/home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/src/slam_navigation/build/slam_navigation

@@ -1,0 +1,327 @@
+[0.193s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DBUILD_TESTING=ON']
+[0.193s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DBUILD_TESTING=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b9bb0e991f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b9bb0fc8d40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b9bb0fc8d40>>, mixin_verb=('build',))
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.263s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/toluwani-williams/slam_ws'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_application) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_application) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_application) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_application) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_application) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_application) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_application) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_application) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_application) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_bot_application' with type 'ros.ament_cmake' and name 'slam_bot_application'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_bringup) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_bringup) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_bringup) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_bringup) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_bringup) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_bringup) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_bringup) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_bringup) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_bot_bringup' with type 'ros.ament_cmake' and name 'slam_bot_bringup'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_description) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_description) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_description) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_description) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_description) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_description) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_description) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_description) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_bot_description' with type 'ros.ament_cmake' and name 'slam_bot_description'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_gazebo) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_gazebo) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_gazebo) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_gazebo) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_gazebo) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_gazebo) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_gazebo) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bot_gazebo) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_bot_gazebo' with type 'ros.ament_cmake' and name 'slam_bot_gazebo'
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.357s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/toluwani-williams/slam_ws/install
+[0.361s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/jazzy
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_application' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=ON']'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_application' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_application' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_application' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_application' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_application' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_application' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'slam_bot_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/toluwani-williams/slam_ws/build/slam_bot_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/toluwani-williams/slam_ws/install/slam_bot_application', 'merge_install': False, 'path': '/home/toluwani-williams/slam_ws/src/slam_bot_application', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_description' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=ON']'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'slam_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/toluwani-williams/slam_ws/build/slam_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/toluwani-williams/slam_ws/install/slam_bot_description', 'merge_install': False, 'path': '/home/toluwani-williams/slam_ws/src/slam_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_gazebo' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=ON']'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'slam_bot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/toluwani-williams/slam_ws/build/slam_bot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo', 'merge_install': False, 'path': '/home/toluwani-williams/slam_ws/src/slam_bot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_bringup' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=ON']'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'slam_bot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'slam_bot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/toluwani-williams/slam_ws/build/slam_bot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/toluwani-williams/slam_ws/install/slam_bot_bringup', 'merge_install': False, 'path': '/home/toluwani-williams/slam_ws/src/slam_bot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.439s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.441s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/toluwani-williams/slam_ws/src/slam_bot_description' with build type 'ament_cmake'
+[0.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/toluwani-williams/slam_ws/src/slam_bot_description'
+[0.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.454s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/toluwani-williams/slam_ws/src/slam_bot_application' with build type 'ament_cmake'
+[0.454s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/toluwani-williams/slam_ws/src/slam_bot_application'
+[0.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_description -- -j8 -l8
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_application -- -j8 -l8
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_description -- -j8 -l8
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_description
+[0.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_application -- -j8 -l8
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_application
+[0.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_bot_description)
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_description
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description' for CMake module files
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description' for CMake config files
+[0.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_bot_description', 'cmake_prefix_path')
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/hook/cmake_prefix_path.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/hook/cmake_prefix_path.dsv'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/hook/cmake_prefix_path.sh'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description/bin'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description/lib/pkgconfig/slam_bot_description.pc'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description/lib/python3.12/site-packages'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description/bin'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.ps1'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.sh'
+[0.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.bash'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.zsh'
+[0.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/toluwani-williams/slam_ws/install/slam_bot_description/share/colcon-core/packages/slam_bot_description)
+[0.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_bot_description)
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description' for CMake module files
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description' for CMake config files
+[0.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_bot_description', 'cmake_prefix_path')
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/hook/cmake_prefix_path.ps1'
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/hook/cmake_prefix_path.dsv'
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/hook/cmake_prefix_path.sh'
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description/bin'
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description/lib/pkgconfig/slam_bot_description.pc'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description/lib/python3.12/site-packages'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_description/bin'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.ps1'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.dsv'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.sh'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.bash'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/package.zsh'
+[0.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/toluwani-williams/slam_ws/install/slam_bot_description/share/colcon-core/packages/slam_bot_description)
+[0.680s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/toluwani-williams/slam_ws/src/slam_bot_gazebo' with build type 'ament_cmake'
+[0.680s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/toluwani-williams/slam_ws/src/slam_bot_gazebo'
+[0.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_bot_application)
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application' for CMake module files
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_application
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application' for CMake config files
+[0.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_bot_application', 'cmake_prefix_path')
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/hook/cmake_prefix_path.ps1'
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/hook/cmake_prefix_path.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/hook/cmake_prefix_path.sh'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application/bin'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application/lib/pkgconfig/slam_bot_application.pc'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application/lib/python3.12/site-packages'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application/bin'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.dsv'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.sh'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.bash'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.zsh'
+[0.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/toluwani-williams/slam_ws/install/slam_bot_application/share/colcon-core/packages/slam_bot_application)
+[0.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_bot_application)
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application' for CMake module files
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application' for CMake config files
+[0.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_bot_application', 'cmake_prefix_path')
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/hook/cmake_prefix_path.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/hook/cmake_prefix_path.dsv'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/hook/cmake_prefix_path.sh'
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application/bin'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application/lib/pkgconfig/slam_bot_application.pc'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application/lib/python3.12/site-packages'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_application/bin'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.sh'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.bash'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.zsh'
+[0.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/toluwani-williams/slam_ws/install/slam_bot_application/share/colcon-core/packages/slam_bot_application)
+[0.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_gazebo': CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description:/home/toluwani-williams/slam_ws/install/slam_bot_bringup:/home/toluwani-williams/slam_ws/install/slam_bot_gazebo:/home/toluwani-williams/slam_ws/install/slam_bot_application:/home/toluwani-williams/slam_ws/install/ros_gz_example_bringup:/home/toluwani-williams/slam_ws/install/ros_gz_example_gazebo:/home/toluwani-williams/slam_ws/install/ros_gz_example_description:/home/toluwani-williams/slam_ws/install/ros_gz_example_application:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_gazebo -- -j8 -l8
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description:/home/toluwani-williams/slam_ws/install/slam_bot_bringup:/home/toluwani-williams/slam_ws/install/slam_bot_gazebo:/home/toluwani-williams/slam_ws/install/slam_bot_application:/home/toluwani-williams/slam_ws/install/ros_gz_example_bringup:/home/toluwani-williams/slam_ws/install/ros_gz_example_gazebo:/home/toluwani-williams/slam_ws/install/ros_gz_example_description:/home/toluwani-williams/slam_ws/install/ros_gz_example_application:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_gazebo -- -j8 -l8
+[0.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_gazebo': CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description:/home/toluwani-williams/slam_ws/install/slam_bot_bringup:/home/toluwani-williams/slam_ws/install/slam_bot_gazebo:/home/toluwani-williams/slam_ws/install/slam_bot_application:/home/toluwani-williams/slam_ws/install/ros_gz_example_bringup:/home/toluwani-williams/slam_ws/install/ros_gz_example_gazebo:/home/toluwani-williams/slam_ws/install/ros_gz_example_description:/home/toluwani-williams/slam_ws/install/ros_gz_example_application:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_gazebo
+[0.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_bot_gazebo)
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo' for CMake module files
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description:/home/toluwani-williams/slam_ws/install/slam_bot_bringup:/home/toluwani-williams/slam_ws/install/slam_bot_gazebo:/home/toluwani-williams/slam_ws/install/slam_bot_application:/home/toluwani-williams/slam_ws/install/ros_gz_example_bringup:/home/toluwani-williams/slam_ws/install/ros_gz_example_gazebo:/home/toluwani-williams/slam_ws/install/ros_gz_example_description:/home/toluwani-williams/slam_ws/install/ros_gz_example_application:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_gazebo
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo' for CMake config files
+[0.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_bot_gazebo', 'cmake_prefix_path')
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/hook/cmake_prefix_path.ps1'
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/hook/cmake_prefix_path.dsv'
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/hook/cmake_prefix_path.sh'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/bin'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/pkgconfig/slam_bot_gazebo.pc'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/python3.12/site-packages'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/bin'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.dsv'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.sh'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.bash'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.zsh'
+[0.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/colcon-core/packages/slam_bot_gazebo)
+[0.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_bot_gazebo)
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo' for CMake module files
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo' for CMake config files
+[0.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_bot_gazebo', 'cmake_prefix_path')
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/hook/cmake_prefix_path.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/hook/cmake_prefix_path.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/hook/cmake_prefix_path.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/pkgconfig/slam_bot_gazebo.pc'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/python3.12/site-packages'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/bin'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.sh'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.bash'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/slam_bot_gazebo/package.zsh'
+[0.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/share/colcon-core/packages/slam_bot_gazebo)
+[0.983s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/toluwani-williams/slam_ws/src/slam_bot_bringup' with build type 'ament_cmake'
+[0.983s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/toluwani-williams/slam_ws/src/slam_bot_bringup'
+[0.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_bringup': CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo:/home/toluwani-williams/slam_ws/install/slam_bot_description:/home/toluwani-williams/slam_ws/install/slam_bot_bringup:/home/toluwani-williams/slam_ws/install/slam_bot_application:/home/toluwani-williams/slam_ws/install/ros_gz_example_bringup:/home/toluwani-williams/slam_ws/install/ros_gz_example_gazebo:/home/toluwani-williams/slam_ws/install/ros_gz_example_description:/home/toluwani-williams/slam_ws/install/ros_gz_example_application:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_PLUGIN_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/slam_bot_gazebo GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_bringup -- -j8 -l8
+[1.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo:/home/toluwani-williams/slam_ws/install/slam_bot_description:/home/toluwani-williams/slam_ws/install/slam_bot_bringup:/home/toluwani-williams/slam_ws/install/slam_bot_application:/home/toluwani-williams/slam_ws/install/ros_gz_example_bringup:/home/toluwani-williams/slam_ws/install/ros_gz_example_gazebo:/home/toluwani-williams/slam_ws/install/ros_gz_example_description:/home/toluwani-williams/slam_ws/install/ros_gz_example_application:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_PLUGIN_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/slam_bot_gazebo GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_bringup -- -j8 -l8
+[1.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_bringup': CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo:/home/toluwani-williams/slam_ws/install/slam_bot_description:/home/toluwani-williams/slam_ws/install/slam_bot_bringup:/home/toluwani-williams/slam_ws/install/slam_bot_application:/home/toluwani-williams/slam_ws/install/ros_gz_example_bringup:/home/toluwani-williams/slam_ws/install/ros_gz_example_gazebo:/home/toluwani-williams/slam_ws/install/ros_gz_example_description:/home/toluwani-williams/slam_ws/install/ros_gz_example_application:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_PLUGIN_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/slam_bot_gazebo GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_bringup
+[1.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_bot_bringup)
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup' for CMake module files
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup' for CMake config files
+[1.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_bot_bringup', 'cmake_prefix_path')
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/hook/cmake_prefix_path.ps1'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/hook/cmake_prefix_path.dsv'
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo:/home/toluwani-williams/slam_ws/install/slam_bot_description:/home/toluwani-williams/slam_ws/install/slam_bot_bringup:/home/toluwani-williams/slam_ws/install/slam_bot_application:/home/toluwani-williams/slam_ws/install/ros_gz_example_bringup:/home/toluwani-williams/slam_ws/install/ros_gz_example_gazebo:/home/toluwani-williams/slam_ws/install/ros_gz_example_description:/home/toluwani-williams/slam_ws/install/ros_gz_example_application:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_PLUGIN_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_gazebo/lib/slam_bot_gazebo GZ_SIM_RESOURCE_PATH=/home/toluwani-williams/slam_ws/install/slam_bot_description/share/slam_bot_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_bringup
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/hook/cmake_prefix_path.sh'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/bin'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/lib/pkgconfig/slam_bot_bringup.pc'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/lib/python3.12/site-packages'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/bin'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.ps1'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.sh'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.bash'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.zsh'
+[1.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/colcon-core/packages/slam_bot_bringup)
+[1.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_bot_bringup)
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup' for CMake module files
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup' for CMake config files
+[1.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_bot_bringup', 'cmake_prefix_path')
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/hook/cmake_prefix_path.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/hook/cmake_prefix_path.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/hook/cmake_prefix_path.sh'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/bin'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/lib/pkgconfig/slam_bot_bringup.pc'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/lib/python3.12/site-packages'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/bin'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.sh'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.bash'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/slam_bot_bringup/package.zsh'
+[1.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/toluwani-williams/slam_ws/install/slam_bot_bringup/share/colcon-core/packages/slam_bot_bringup)
+[1.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.161s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.161s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.162s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.177s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.177s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.177s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.214s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/toluwani-williams/slam_ws/install/local_setup.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/toluwani-williams/slam_ws/install/_local_setup_util_ps1.py'
+[1.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/toluwani-williams/slam_ws/install/setup.ps1'
+[1.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/toluwani-williams/slam_ws/install/local_setup.sh'
+[1.225s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/toluwani-williams/slam_ws/install/_local_setup_util_sh.py'
+[1.226s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/toluwani-williams/slam_ws/install/setup.sh'
+[1.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/toluwani-williams/slam_ws/install/local_setup.bash'
+[1.230s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/toluwani-williams/slam_ws/install/setup.bash'
+[1.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/toluwani-williams/slam_ws/install/local_setup.zsh'
+[1.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/toluwani-williams/slam_ws/install/setup.zsh'

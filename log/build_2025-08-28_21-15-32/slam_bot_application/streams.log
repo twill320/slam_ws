@@ -1,0 +1,20 @@
+[0.030s] Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_application -- -j8 -l8
+[0.146s] Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toluwani-williams/slam_ws/build/slam_bot_application -- -j8 -l8
+[0.149s] Invoking command in '/home/toluwani-williams/slam_ws/build/slam_bot_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_application
+[0.169s] -- Install configuration: ""
+[0.169s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/ament_index/resource_index/package_run_dependencies/slam_bot_application
+[0.169s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/ament_index/resource_index/parent_prefix_path/slam_bot_application
+[0.169s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/environment/ament_prefix_path.sh
+[0.170s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/environment/ament_prefix_path.dsv
+[0.170s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/environment/path.sh
+[0.170s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/environment/path.dsv
+[0.170s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/local_setup.bash
+[0.170s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/local_setup.sh
+[0.170s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/local_setup.zsh
+[0.171s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/local_setup.dsv
+[0.171s] -- Installing: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.dsv
+[0.171s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/ament_index/resource_index/packages/slam_bot_application
+[0.171s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/cmake/slam_bot_applicationConfig.cmake
+[0.171s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/cmake/slam_bot_applicationConfig-version.cmake
+[0.171s] -- Up-to-date: /home/toluwani-williams/slam_ws/install/slam_bot_application/share/slam_bot_application/package.xml
+[0.236s] Invoked command in '/home/toluwani-williams/slam_ws/build/slam_bot_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toluwani-williams/slam_ws/build/slam_bot_application

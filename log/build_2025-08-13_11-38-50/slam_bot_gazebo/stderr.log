@@ -1,0 +1,14 @@
+[01m[K/home/toluwani-williams/slam_ws/src/slam_bot_gazebo/src/FullSystem.cc:28:10:[m[K [01;31m[Kfatal error: [m[Kslam_bot_gazebo/FullSystem.hh: No such file or directory
+   28 | #include [01;31m[K"slam_bot_gazebo/FullSystem.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/toluwani-williams/slam_ws/src/slam_bot_gazebo/src/BasicSystem.cc:28:10:[m[K [01;31m[Kfatal error: [m[Kslam_bot_gazebo/BasicSystem.hh: No such file or directory
+   28 | #include [01;31m[K"slam_bot_gazebo/BasicSystem.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/FullSystem.dir/build.make:76: CMakeFiles/FullSystem.dir/src/FullSystem.cc.o] Error 1
+gmake[2]: *** [CMakeFiles/BasicSystem.dir/build.make:76: CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/FullSystem.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/BasicSystem.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
