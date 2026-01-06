@@ -1,0 +1,1 @@
+Devloping gazebo model to test implementation of slam algorithm. As of now, I am still in the beginning stages of integrating the kinematics for the model. I have a rough collection of components and will begin integrating motion with it as well.
