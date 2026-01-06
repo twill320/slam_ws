@@ -4,7 +4,7 @@
     <link name="base_link">
       <pose>0 0 0 0 0 0</pose>
       <inertial>
-        <pose>-0.065971 -0.034453 0.00052875 0 0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <mass>0.029663</mass>
         <inertia>
           <ixx>2.3758E-05</ixx>
@@ -18,9 +18,10 @@
       <visual name="visual">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/base_link.STL</uri>
-          </mesh>
+          <cylinder>
+            <length>0.02</length>
+            <radius>0.07</radius>
+          </cylinder>
         </geometry>
         <material>
           <ambient>0.1098 0.1098 0.1098 1</ambient>
@@ -32,15 +33,16 @@
       <collision name="collision">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/base_link.STL</uri>
-          </mesh>
+          <cylinder>
+            <length>0.02</length>
+            <radius>0.07</radius>
+          </cylinder>
         </geometry>
       </collision>
     </link>
 
     <link name="motor1_Link">
-      <pose>-0.10447 -0.034453 -0.00097125 0 0 0</pose>
+      <pose>0.06 0 -0.00150 3.14159 1.5708 0</pose>
       <inertial>
         <pose>0.0012149 8.9994E-06 -0.014697 0 0 0</pose>
         <mass>0.027587</mass>
@@ -54,10 +56,11 @@
         </inertia>
       </inertial>
       <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 0 1.5708 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>package://slam_bot_description/meshes/motor1_Link.STL</uri>
+            <uri>package://slam_bot_description/models/slam_bot/meshes/motor1_Link.STL</uri>
+            <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
@@ -70,9 +73,10 @@
       <collision name="collision">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/motor1_Link.STL</uri>
-          </mesh>
+          <cylinder>
+            <length>0.04</length>
+            <radius>0.0135</radius>
+          </cylinder>
         </geometry>
       </collision>
     </link>
@@ -83,24 +87,24 @@
     </joint>
 
     <link name="wheel1_Link">
-      <pose>-0.13497 -0.034453 -0.01747125 -1.5708 0 1.5708</pose>
+      <pose>0.08 0 -0.0175 -1.5708 0 1.5708</pose>
       <inertial>
         <pose>-3.0531E-16 1.7347E-17 0.0059184 0 0 0</pose>
-        <mass>0.020334</mass>
+        <mass>0.045958</mass>
         <inertia>
-          <ixx>3.0819E-06</ixx>
-          <ixy>8.6757E-22</ixy>
-          <ixz>9.2629E-21</ixz>
-          <iyy>3.0819E-06</iyy>
-          <iyz>1.9171E-22</iyz>
-          <izz>5.7754E-06</izz>
+          <ixx>7.0814e-06</ixx>
+          <ixy>0</ixy> 
+          <ixz>0</ixz> 
+          <iyy>7.0814e-06</iyy> 
+          <iyz>0</iyz> 
+          <izz>1.3236e-05</izz>
         </inertia>
       </inertial>
       <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 3.14159 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/wheel1_Link.STL</uri>
+          <mesh> <uri>package://slam_bot_description/models/slam_bot/meshes/wheel1_Link.STL</uri>
+            <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
@@ -110,12 +114,28 @@
           <emissive>0 0 0 0</emissive>
         </material>
       </visual>
+
+      <visual name="rubber_visual">
+        <pose>0 0 0 3.14159 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>package://slam_bot_description/models/slam_bot/meshes/rubber1_Link.STL</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+
       <collision name="collision">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/wheel1_Link.STL</uri>
-          </mesh>
+          <cylinder>
+            <length>0.011</length>
+            <radius>0.024</radius>
+          </cylinder>
         </geometry>
       </collision>
     </link>
@@ -132,51 +152,8 @@
       </axis>
     </joint>
 
-    <link name="rubber1_Link">
-       <pose>-0.13497 -0.034453 -0.01747125 -1.5708 0 1.5708</pose>
-      <inertial>
-        <pose>-2.9837E-16 5.8981E-17 0.008 0 0 0</pose>
-        <mass>0.025624</mass>
-        <inertia>
-          <ixx>8.1584E-07</ixx>
-          <ixy>2.7512E-21</ixy>
-          <ixz>3.9264E-22</ixz>
-          <iyy>8.1584E-07</iyy>
-          <iyz>6.7285E-24</iyz>
-          <izz>9.417E-07</izz>
-        </inertia>
-      </inertial>
-      <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/rubber1_Link.STL</uri>
-          </mesh>
-        </geometry>
-        <material>
-          <ambient>0.79216 0.81961 0.93333 1</ambient>
-          <diffuse>0.79216 0.81961 0.93333 1</diffuse>
-          <specular>0.1 0.1 0.1 1</specular>
-          <emissive>0 0 0 0</emissive>
-        </material>
-      </visual>
-      <collision name="collision">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/rubber1_Link.STL</uri>
-          </mesh>
-        </geometry>
-      </collision>
-    </link>
-
-    <joint name="rubber1_joint" type="fixed">
-      <parent>wheel1_Link</parent>
-      <child>rubber1_Link</child>
-    </joint>
-
     <link name="motor2_Link">
-      <pose>-0.027471 -0.034453 -0.00097125 0 0 0</pose>
+      <pose>-0.03 0.052 -0.00150 0 1.5708 2.0944</pose>
       <inertial>
         <pose>-0.0012149 -8.9994E-06 -0.014697 0 0 0</pose>
         <mass>0.027587</mass>
@@ -190,10 +167,11 @@
         </inertia>
       </inertial>
       <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 0 1.5708 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>package://slam_bot_description/meshes/motor2_Link.STL</uri>
+            <uri>package://slam_bot_description/models/slam_bot/meshes/motor2_Link.STL</uri>
+            <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
@@ -206,9 +184,10 @@
       <collision name="collision">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/motor2_Link.STL</uri>
-          </mesh>
+          <cylinder>
+            <length>0.04</length>
+            <radius>0.0135</radius>
+          </cylinder>
         </geometry>
       </collision>
     </link>
@@ -219,24 +198,24 @@
     </joint>
 
     <link name="wheel2_Link">
-      <pose>0.003029 -0.034453 -0.01747125 1.5708 0 1.5708</pose>
+      <pose>-0.04 0.069 -0.0175 -1.5708 0 3.6652</pose>
       <inertial>
         <pose>8.3267E-17 1.0408E-17 0.0059184 0 0 0</pose>
-        <mass>0.020334</mass>
+        <mass>0.045958</mass>
         <inertia>
-          <ixx>3.0819E-06</ixx>
-          <ixy>1.4617E-22</ixy>
-          <ixz>-8.1538E-21</ixz>
-          <iyy>3.0819E-06</iyy>
-          <iyz>-1.6374E-22</iyz>
-          <izz>5.7754E-06</izz>
+          <ixx>7.0814e-06</ixx>
+          <ixy>0</ixy> 
+          <ixz>0</ixz> 
+          <iyy>7.0814e-06</iyy> 
+          <iyz>0</iyz> 
+          <izz>1.3236e-05</izz>
         </inertia>
       </inertial>
       <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 3.14159 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/wheel2_Link.STL</uri>
+          <mesh> <uri>package://slam_bot_description/models/slam_bot/meshes/wheel2_Link.STL</uri>
+            <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
@@ -246,12 +225,28 @@
           <emissive>0 0 0 0</emissive>
         </material>
       </visual>
+
+      <visual name="rubber_visual">
+        <pose>0 0 0 3.14159 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>package://slam_bot_description/models/slam_bot/meshes/rubber2_Link.STL</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+
       <collision name="collision">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/wheel2_Link.STL</uri>
-          </mesh>
+          <cylinder>
+            <length>0.011</length>
+            <radius>0.024</radius>
+          </cylinder>
         </geometry>
       </collision>
     </link>
@@ -268,51 +263,8 @@
       </axis>
     </joint>
 
-    <link name="rubber2_Link">
-      <pose>0.003029 -0.034453 -0.01747125 1.5708 0 1.5708</pose>
-      <inertial>
-        <pose>2.0817E-17 -1.0408E-17 0.008 0 0 0</pose>
-        <mass>0.025624</mass>
-        <inertia>
-          <ixx>8.1584E-07</ixx>
-          <ixy>-1.8496E-21</ixy>
-          <ixz>-4.4163E-22</ixz>
-          <iyy>8.1584E-07</iyy>
-          <iyz>2.1291E-24</iyz>
-          <izz>9.417E-07</izz>
-        </inertia>
-      </inertial>
-      <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/rubber2_Link.STL</uri>
-          </mesh>
-        </geometry>
-        <material>
-          <ambient>0.79216 0.81961 0.93333 1</ambient>
-          <diffuse>0.79216 0.81961 0.93333 1</diffuse>
-          <specular>0.1 0.1 0.1 1</specular>
-          <emissive>0 0 0 0</emissive>
-        </material>
-      </visual>
-      <collision name="collision">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/rubber2_Link.STL</uri>
-          </mesh>
-        </geometry>
-      </collision>
-    </link>
-
-    <joint name="rubber2_joint" type="fixed">
-      <parent>wheel2_Link</parent>
-      <child>rubber2_Link</child>
-    </joint>
-
     <link name="motor3_Link">
-      <pose>-0.065971 0.0040471 -0.00097125 0 0 0</pose>
+      <pose>-0.03 -0.052 -0.0175 3.14159 1.5708 -2.0944</pose>
       <inertial>
         <pose>8.9994E-06 -0.0012149 -0.014697 0 0 0</pose>
         <mass>0.027587</mass>
@@ -326,10 +278,11 @@
         </inertia>
       </inertial>
       <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
+        <pose>-0.016 0 0 -1.5708 3.14159 1.5708</pose>
         <geometry>
           <mesh>
-            <uri>package://slam_bot_description/meshes/motor3_Link.STL</uri>
+            <uri>package://slam_bot_description/models/slam_bot/meshes/motor3_Link.STL</uri>
+            <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
@@ -342,9 +295,10 @@
       <collision name="collision">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/motor3_Link.STL</uri>
-          </mesh>
+          <cylinder>
+            <length>0.04</length>
+            <radius>0.0135</radius>
+          </cylinder>
         </geometry>
       </collision>
     </link>
@@ -355,24 +309,24 @@
     </joint>
 
     <link name="wheel3_Link">
-       <pose>-0.065971 0.0345471 -0.01747125 -1.5708 0 0</pose>
+      <pose>-0.04 -0.069 -0.0175 -1.5708 0 -0.5236</pose>
       <inertial>
         <pose>-3.3307E-16 -1.36E-15 0.0059184 0 0 0</pose>
-        <mass>0.020334</mass>
+        <mass>0.045958</mass>
         <inertia>
-          <ixx>3.0819E-06</ixx>
-          <ixy>8.2017E-13</ixy>
-          <ixz>-6.1659E-21</ixz>
-          <iyy>3.0819E-06</iyy>
-          <iyz>8.252E-21</iyz>
-          <izz>5.7754E-06</izz>
+          <ixx>7.0814e-06</ixx>
+          <ixy>0</ixy> 
+          <ixz>0</ixz> 
+          <iyy>7.0814e-06</iyy> 
+          <iyz>0</iyz> 
+          <izz>1.3236e-05</izz>
         </inertia>
       </inertial>
       <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 3.14159 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/wheel3_Link.STL</uri>
+          <mesh> <uri>package://slam_bot_description/models/slam_bot/meshes/wheel3_Link.STL</uri>
+            <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
@@ -382,12 +336,28 @@
           <emissive>0 0 0 0</emissive>
         </material>
       </visual>
+
+      <visual name="rubber_visual">
+        <pose>0 0 0 3.14159 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>package://slam_bot_description/models/slam_bot/meshes/rubber3_Link.STL</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+
       <collision name="collision">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/wheel3_Link.STL</uri>
-          </mesh>
+          <cylinder>
+            <length>0.011</length>
+            <radius>0.024</radius>
+          </cylinder>
         </geometry>
       </collision>
     </link>
@@ -402,185 +372,6 @@
           <upper>1e16</upper>
         </limit>
       </axis>
-    </joint>
-
-    <link name="rubber3_Link">
-      <pose>-0.065971 0.0345471 -0.01747125 -1.5708 0 0</pose>
-      <inertial>
-        <pose>-4.1633E-16 -1.3739E-15 0.008 0 0 0</pose>
-        <mass>0.025624</mass>
-        <inertia>
-          <ixx>8.1584E-07</ixx>
-          <ixy>8.5348E-21</ixy>
-          <ixz>-3.0657E-22</ixz>
-          <iyy>8.1584E-07</iyy>
-          <iyz>3.663E-22</iyz>
-          <izz>9.417E-07</izz>
-        </inertia>
-      </inertial>
-      <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/rubber3_Link.STL</uri>
-          </mesh>
-        </geometry>
-        <material>
-          <ambient>0.79216 0.81961 0.93333 1</ambient>
-          <diffuse>0.79216 0.81961 0.93333 1</diffuse>
-          <specular>0.1 0.1 0.1 1</specular>
-          <emissive>0 0 0 0</emissive>
-        </material>
-      </visual>
-      <collision name="collision">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/rubber3_Link.STL</uri>
-          </mesh>
-        </geometry>
-      </collision>
-    </link>
-
-    <joint name="rubber3_joint" type="fixed">
-      <parent>wheel3_Link</parent>
-      <child>rubber3_Link</child>
-    </joint>
-
-    <link name="motor4_Link">
-      <pose>-0.065971 -0.072953 -0.00097125 0 0 0</pose>
-      <inertial>
-        <pose>-8.9994E-06 0.0012149 -0.014697 0 0 0</pose>
-        <mass>0.027587</mass>
-        <inertia>
-          <ixx>4.8805E-06</ixx>
-          <ixy>-5.6421E-10</ixy>
-          <ixz>3.1417E-09</ixz>
-          <iyy>2.5276E-06</iyy>
-          <iyz>-2.5995E-07</iyz>
-          <izz>4.8985E-06</izz>
-        </inertia>
-      </inertial>
-      <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/motor4_Link.STL</uri>
-          </mesh>
-        </geometry>
-        <material>
-          <ambient>0.66667 0.69804 0.76863 1</ambient>
-          <diffuse>0.66667 0.69804 0.76863 1</diffuse>
-          <specular>0.1 0.1 0.1 1</specular>
-          <emissive>0 0 0 0</emissive>
-        </material>
-      </visual>
-      <collision name="collision">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/motor4_Link.STL</uri>
-          </mesh>
-        </geometry>
-      </collision>
-    </link>
-
-    <joint name="motor4_joint" type="fixed">
-      <parent>base_link</parent>
-      <child>motor4_Link</child>
-    </joint>
-
-    <link name="wheel4_Link">
-      <pose>-0.065971 -0.103453 -0.01747125 1.5708 0 0</pose>
-      <inertial>
-        <pose>6.5226E-16 -3.1225E-17 0.0059184 0 0 0</pose>
-        <mass>0.020334</mass>
-        <inertia>
-          <ixx>3.0819E-06</ixx>
-          <ixy>9.4476E-22</ixy>
-          <ixz>1.9557E-20</ixz>
-          <iyy>3.0819E-06</iyy>
-          <iyz>1.2749E-22</iyz>
-          <izz>5.7754E-06</izz>
-        </inertia>
-      </inertial>
-      <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/wheel4_Link.STL</uri>
-          </mesh>
-        </geometry>
-        <material>
-          <ambient>0.66667 0.69804 0.76863 1</ambient>
-          <diffuse>0.66667 0.69804 0.76863 1</diffuse>
-          <specular>0.1 0.1 0.1 1</specular>
-          <emissive>0 0 0 0</emissive>
-        </material>
-      </visual>
-      <collision name="collision">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/wheel4_Link.STL</uri>
-          </mesh>
-        </geometry>
-      </collision>
-    </link>
-
-    <joint name="wheel4_joint" type="revolute">
-      <parent>motor4_Link</parent>
-      <child>wheel4_Link</child>
-      <axis>
-        <xyz>0 0 1</xyz>
-        <limit>
-          <lower>-1e16</lower>
-          <upper>1e16</upper>
-        </limit>
-      </axis>
-    </joint>
-
-    <link name="rubber4_Link">
-      <pose>-0.065971 -0.103453 -0.01747125 1.5708 0 0</pose>
-      <inertial>
-        <pose>6.245E-16 -5.2042E-17 0.008 0 0 0</pose>
-        <mass>0.025624</mass>
-        <inertia>
-          <ixx>8.1584E-07</ixx>
-          <ixy>-1.0418E-20</ixy>
-          <ixz>1.3067E-21</ixz>
-          <iyy>8.1584E-07</iyy>
-          <iyz>-3.0399E-23</iyz>
-          <izz>9.417E-07</izz>
-        </inertia>
-      </inertial>
-      <visual name="visual">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/rubber4_Link.STL</uri>
-          </mesh>
-        </geometry>
-        <material>
-          <ambient>0.79216 0.81961 0.93333 1</ambient>
-          <diffuse>0.79216 0.81961 0.93333 1</diffuse>
-          <specular>0.1 0.1 0.1 1</specular>
-          <emissive>0 0 0 0</emissive>
-        </material>
-      </visual>
-      <collision name="collision">
-        <pose>0 0 0 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>package://slam_bot_description/meshes/rubber4_Link.STL</uri>
-          </mesh>
-        </geometry>
-      </collision>
-    </link>
-
-    <joint name="rubber4_joint" type="fixed">
-      <parent>wheel4_Link</parent>
-      <child>rubber4_Link</child>
     </joint>
   </model>
 </sdf>
