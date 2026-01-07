@@ -37,12 +37,8 @@
     <plugin filename="gz-sim-imu-system"
         name="gz::sim::systems::Imu">
     </plugin>
-    <plugin
-        filename="gz-sim-sensors-system"
-        name="gz::sim::systems::Sensors">
-        <render_engine>ogre2</render_engine>
-    </plugin>
 
+    
     <light name="sun" type="directional">
       <cast_shadows>true</cast_shadows>
       <pose>0 0 10 0 0 0</pose>
@@ -56,6 +52,24 @@
       </attenuation>
       <direction>-0.5 0.1 -0.9</direction>
     </light>
+
+    <plugin filename="gz-sim-ros-gz-bridge-system" name="gz::sim::systems::RosGzBridge">
+      <config_file>
+        <bridge topic="/lidar">
+          <ros_topic_name>scan</ros_topic_name>
+          <gz_topic_name>/lidar</gz_topic_name>
+          <ros_type_name>sensor_msgs/msg/LaserScan</ros_type_name>
+          <gz_type_name>gz.msgs.LaserScan</gz_type_name>
+        </bridge>
+
+        <bridge topic="/imu">
+          <ros_topic_name>imu</ros_topic_name>
+          <gz_topic_name>/imu</gz_topic_name>
+          <ros_type_name>sensor_msgs/msg/Imu</ros_type_name>
+          <gz_type_name>gz.msgs.IMU</gz_type_name>
+        </bridge>
+      </config_file>
+    </plugin>
 
     <model name="ground_plane">
       <static>true</static>
@@ -111,15 +125,6 @@
         <odom_frame>slam_bot/odom</odom_frame>
         <robot_base_frame>slam_bot</robot_base_frame>
       </plugin>
-
-      <plugin name="holonomic_control" filename="libgazebo_ros_planar_move.so">
-      	<commandTopic>cmd_vel</commandTopic>
-      	<odometryTopic>odom</odometryTopic>
-      	<odometryFrame>odom</odometryFrame>
-      	<odometryRate>20.0</odometryRate>
-      	<robotBaseFrame>base_link</robotBaseFrame>
-			  <publishTF>true</publishTF>
-    	</plugin>
     </model>
 
   </world>
